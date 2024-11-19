@@ -1,0 +1,10 @@
+/* Default state: chevron icon faces right */
+.dropdown-icon {
+    transition: transform 0.3s;
+  }
+  
+  /* When expanded: chevron icon rotates down */
+  .nav-link[aria-expanded="true"] .dropdown-icon {
+    transform: rotate(90deg);
+  }
+  
